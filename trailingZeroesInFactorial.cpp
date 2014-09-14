@@ -1,3 +1,4 @@
+// blithejack
 #include <iostream>
 #include <assert.h>
 
@@ -13,7 +14,7 @@ int find5(int x) {
 
 int trailingZeroes(int n) {
   int zeroes = 0;
-  for(int i=1; i<=10000; i++)
+  for(int i=1; i<=n; i++)
   {
     zeroes += find5(i);
   }
